@@ -17,3 +17,6 @@ pillow      #helps in image pre-processing
 
 
 streamlit
+
+librosa
+resemblyzer
