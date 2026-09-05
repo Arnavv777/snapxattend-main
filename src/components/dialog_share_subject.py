@@ -6,8 +6,8 @@ import io
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name,subject_code):
-    app_domain = "http://localhost:8501"
-    join_url = f"{app_domain}/?join_code = {subject_code}"
+    app_domain = "attendxsnap-main.streamlit.app"
+    join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.header("Scan to join")
 
